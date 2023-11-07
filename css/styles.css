@@ -1,0 +1,131 @@
+#intro {
+    border-style: solid;
+	border-width: 2px;
+	overflow: hidden;
+	text-align: center;
+	padding: 1%;
+	font-size: 20px;
+	background-color: #c3e9d0;
+}
+
+#entrudo_image {
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cordaobola_image {
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#afoxe_image {
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parade1_image {
+    max-width: 600px;
+    float: left;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+
+#parade2_image {
+    max-width: 600px;
+    float: right;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+#bloco_image {
+    max-width: 600px;
+    float: left;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+
+#bloco2_image {
+    max-width: 600px;
+    float: right;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+#camaleao {
+    max-width: 300px;
+}
+
+#eva {
+    max-width: 300px;
+}
+
+#pipoca {
+    max-width: 300px;
+}
+
+#largadinho {
+    max-width: 300px;
+}
+
+#coruja {
+    max-width: 300px;
+}
+
+figure {
+	text-align: center;
+    font-size: medium;
+}
+
+header {
+	text-align: center;
+    font-size: 400%;
+	overflow: hidden;
+	background-color: #6ba374;
+    border: 2px solid black;
+}
+nav {
+    background-color: #3b5840;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    border: 2px solid black;
+    padding: 1%;
+
+}
+
+h1 {
+    padding-bottom: 5%;
+}
+
+.navigationelement {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+a:link {
+    color: #007700;
+    -webkit-text-stroke: 0.5px #fff;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #007700;
+    -webkit-text-stroke: 0.5px #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF0000;
+}
+
+iframe {
+    width: 600px;
+    height: 350px;
+}
