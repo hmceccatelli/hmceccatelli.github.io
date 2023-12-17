@@ -1,0 +1,88 @@
+<!doctype html>
+<!-- CA2 by Helena Maria Ceccatelli -->
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Eletric trio</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <nav id="navigation_bar"></nav>
+    <script type="text/javascript">
+        // Fetch the content of the external HTML file
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                // Insert the content into the specified div
+                document.getElementById('navigation_bar').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching the content:', error));
+    </script>
+    <header>
+        CELEBRITIES IN CARNIVAL PRESENTATIONS
+    </header>
+    <div id="intro">
+        <table>
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><img src="images/famous/carmen.jpg" alt="Carmen Miranda" class="famous_people"></td>
+                <td>Carmen Miranda - Iconic Brazilian singer and actress, known for her extravagant costumes and fruit hats.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/gisele.webp" alt="Gisele Bündchen" class="famous_people"></td>
+                <td>Gisele Bündchen - Renowned Brazilian supermodel, known for her work with Victoria's Secret and numerous fashion brands.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/madonna.jpg" alt="Madonna" class="famous_people"></td>
+                <td>Madonna - Legendary American singer and actress, known for her influential music and dynamic performances.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/paris.webp" alt="Paris Hilton" class="famous_people"></td>
+                <td>Paris Hilton - American media personality, socialite, and businesswoman, known for her reality TV appearances and fashion influence.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/megan.jpg" alt="Megan Fox" class="famous_people"></td>
+                <td>Megan Fox - American actress and model, famous for her roles in the "Transformers" film series and other Hollywood movies.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/will.jpg" alt="Will Smith" class="famous_people"></td>
+                <td>Will Smith - Prominent American actor and producer, known for his roles in "The Fresh Prince of Bel-Air" and blockbuster movies.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/kim.jpg" alt="Kim Kardashian" class="famous_people"></td>
+                <td>Kim Kardashian - American media personality, socialite, and businesswoman, known for her influence in fashion and reality TV.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/rihanna.png" alt="Rihanna" class="famous_people"></td>
+                <td>Rihanna - Barbadian singer, actress, and businesswoman, known for her hit songs and fashion ventures.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/ivete.jpg" alt="Ivete Sangalo" class="famous_people"></td>
+                <td>Ivete Sangalo - Famous Brazilian singer, songwriter, and occasional actress, known for her energetic performances.</td>
+            </tr>
+            <tr>
+                <td><img src="images/famous/anitta.webp" alt="Anitta" class="famous_people"></td>
+                <td>Anitta - Brazilian singer, songwriter, and actress, known for her popular music and performances in Carnival.</td>
+            </tr>
+        </table>
+        
+        
+
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+                </a>
+            </p>            
+    </footer>
+
+</body>
+</html>

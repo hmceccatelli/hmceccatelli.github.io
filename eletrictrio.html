@@ -10,12 +10,17 @@
 </head>
 
 <body>
-    <nav> 
-        <a href="index.html" class="navigationelement">MAIN PAGE</a>
-        <a href="sambaschools.html" class="navigationelement">SAMBA SCHOOLS</a>
-        <a href="plots.html" class="navigationelement">PLOTS</a>
-        <a href="eletrictrio.html" class="navigationelement">ELECTRIC TRIO</a>
-    </nav>
+    <nav id="navigation_bar"></nav>
+    <script type="text/javascript">
+        // Fetch the content of the external HTML file
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                // Insert the content into the specified div
+                document.getElementById('navigation_bar').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching the content:', error));
+    </script>
     <header>
         ELETRIC TRIO
     </header>
@@ -26,7 +31,7 @@
         <img src="images/bloco.webp" alt="Parade" id="bloco_image">
         <img src="images/bloco2.jpg" alt="Parade" id="bloco2_image">
         </p>   
-        <h1 style="padding-top: 25%">MOST FAMOUS ELETRIC TRIOS (click on the pictures to see the video)</h1>
+        <h1 style="padding-top: 30%">MOST FAMOUS ELETRIC TRIOS (click on the pictures to see the video)</h1>
         <ol>
             <li><h3>CAMALEÃO</h3>
                 <figure>

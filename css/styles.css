@@ -1,11 +1,11 @@
 #intro {
     border-style: solid;
-	border-width: 2px;
-	overflow: hidden;
-	text-align: center;
-	padding: 1%;
-	font-size: 20px;
-	background-color: #c3e9d0;
+    border-width: 2px;
+    overflow: hidden;
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+    background-color: #c3e9d0;
 }
 
 #entrudo_image {
@@ -78,15 +78,15 @@
 }
 
 figure {
-	text-align: center;
+    text-align: center;
     font-size: medium;
 }
 
 header {
-	text-align: center;
+    text-align: center;
     font-size: 400%;
-	overflow: hidden;
-	background-color: #6ba374;
+    overflow: hidden;
+    background-color: #6ba374;
     border: 2px solid black;
 }
 nav {
@@ -128,4 +128,26 @@ a:hover {
 iframe {
     width: 600px;
     height: 350px;
+}
+
+table {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td {
+    border: medium dashed green;
+    text-align: left;
+}
+
+.instrument {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.famous_people {
+    max-width: 250px;
+    max-height: 250px;
 }
